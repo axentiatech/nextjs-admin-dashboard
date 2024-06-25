@@ -24,7 +24,7 @@ const chatData: Chat[] = [
   {
     active: null,
     avatar: "/images/user/user-04.png",
-    name: "Wilium Smith",
+    name: "Wilium Mittal",
     text: "Where are you now?",
     time: "10:12 PM",
     textCount: 0,

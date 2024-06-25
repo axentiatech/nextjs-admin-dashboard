@@ -52,8 +52,8 @@ const SettingBoxes = () => {
                         type="text"
                         name="fullName"
                         id="fullName"
-                        placeholder="Devid Jhon"
-                        defaultValue="Devid Jhon"
+                        placeholder="Devid Abhay"
+                        defaultValue="Devid Abhay"
                       />
                     </div>
                   </div>
@@ -168,8 +168,8 @@ const SettingBoxes = () => {
                       type="text"
                       name="Username"
                       id="Username"
-                      placeholder="devidjhon24"
-                      defaultValue="devidjhon24"
+                      placeholder="devidAbhay24"
+                      defaultValue="devidAbhay24"
                     />
                   </div>
                 </div>
