@@ -2,6 +2,7 @@
 import jsVectorMap from "jsvectormap";
 import React, { useEffect } from "react";
 import "../../js/us-aea-en";
+import "../../js/germany";
 
 const MapOne: React.FC = () => {
   useEffect(() => {
@@ -14,7 +15,7 @@ const MapOne: React.FC = () => {
 
     const vectorMapOne = new jsVectorMap({
       selector: "#mapOne",
-      map: "us_aea_en",
+      map: "de_mill",
       zoomButtons: true,
 
       regionStyle: {
