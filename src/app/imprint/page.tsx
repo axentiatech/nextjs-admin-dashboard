@@ -60,9 +60,9 @@ const CockpitPage: React.FC = () => {
                 this website.
               </p>
               <p className="mt-2 text-sm">
-                Content published under the "Creative Commons" license is marked
-                as such. They may be used in accordance with the stated license
-                conditions.
+                Content published under the &quot;Creative Commons&quot; license
+                is marked as such. They may be used in accordance with the
+                stated license conditions.
               </p>
               <p className="mt-2 text-sm">
                 Anyone who violates copyright law (e.g. copies images or texts
