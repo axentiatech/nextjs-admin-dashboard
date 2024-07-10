@@ -2,6 +2,7 @@ import ECommerce from "@/components/Dashboard/E-commerce";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLaout";
 import React from "react";
+import Breadcrumb from "@/components/Breadcrumbs/Breadcrumb";
 
 export const metadata: Metadata = {
   title:
@@ -13,7 +14,11 @@ export default function Home() {
   return (
     <>
       <DefaultLayout>
-        <ECommerce />
+        <Breadcrumb pageName="Cockpit" />
+
+        <h1 className="pt-24 text-center text-3xl font-semibold text-gray-800 dark:text-gray-200">
+          Welcome the EC Immobilien GmbH properties
+        </h1>
       </DefaultLayout>
     </>
   );

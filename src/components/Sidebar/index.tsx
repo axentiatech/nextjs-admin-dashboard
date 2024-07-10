@@ -30,7 +30,7 @@ const menuGroups = [
           </svg>
         ),
         label: "Cockpit",
-        route: "/cockpit",
+        route: "/",
       },
       {
         icon: (
@@ -55,7 +55,7 @@ const menuGroups = [
           </svg>
         ),
         label: "Dashboard",
-        route: "/",
+        route: "/dashboard",
       },
       {
         icon: (
@@ -383,7 +383,7 @@ const menuGroups = [
 const Sidebar = ({ sidebarOpen, setSidebarOpen }: SidebarProps) => {
   const pathname = usePathname();
 
-  const [pageName, setPageName] = useLocalStorage("selectedMenu", "dashboard");
+  const [pageName, setPageName] = useLocalStorage("selectedMenu", "cockpit");
 
   return (
     <ClickOutside onClick={() => setSidebarOpen(false)}>
