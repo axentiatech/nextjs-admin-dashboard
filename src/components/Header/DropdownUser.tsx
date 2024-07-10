@@ -28,7 +28,7 @@ const DropdownUser = () => {
         </span>
 
         <span className="flex items-center gap-2 font-medium text-dark dark:text-dark-6">
-          <span className="hidden lg:block">Abhay Mittal</span>
+          <span className="hidden lg:block">Khalil El Idrissi</span>
 
           <svg
             className={`fill-current duration-200 ease-in ${dropdownOpen && "rotate-180"}`}
@@ -72,7 +72,7 @@ const DropdownUser = () => {
 
             <span className="block">
               <span className="block font-medium text-dark dark:text-white">
-                Abhay Mittal
+                Khalil El Idrissi
               </span>
               <span className="block font-medium text-dark-5 dark:text-dark-6">
                 jonson@nextadmin.com
